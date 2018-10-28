@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
                                                         // made some notes over om browser vragen hier: D:\ssWebView\aparte browser.docx
         webView.loadUrl("http://www.yahoo.com");
 
-        WebSettings webSettings = webView.getSettings();    // settings ophalen
+        WebSettings webSettings = webView.getSettings();    // settings ophalen hier
         webSettings.setJavaScriptEnabled(true);                                         // settings erop op los laten.
     }                                                       // een voorbeeld van een websetting
 
